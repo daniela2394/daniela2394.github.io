@@ -78,10 +78,21 @@ nav ul li:hover {
   <section class="content">
   
 <img src="http://i.imgur.com/16VDBIo.gif?1" alt="logo profile" width="200">
- <h1>About Daniela</h1>
- <p>I am a publicist with a comprehensive education in the creative sector and the conceptualization of strategies.</p>
-
-<p>Able to develop concepts from consumer insights and market analysis.</p>
+<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+	<div class="row">
+		<label for="name">Your name:</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="email">Your email:</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message:</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+</form>						
  
 
 </body>
