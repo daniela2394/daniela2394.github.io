@@ -6,32 +6,6 @@
 <link href="style.css" rel="stylesheet">
 <style>
 .logo {text-align:center}
-.content {text-align:center;
-padding:80;
-margin-top:100px;
-margin-bottom:100px;
-}
-* {
-  padding: 0;
-  margin: 0;
-}
-p {
-  margin-bottom: 20px;
-}
-  a {
-    text-decoration: none;}
-    body { background-image: url("http://i.imgur.com/lyHPIS1.png?1"); 
-    font-family: 'Raleway', sans-serif;
-    font color:#FFFFFF ;
-    }
-    h1 {font-family: 'Lobster Two', cursive;
-      font-color: #f60059;
-    }
-    
-  #intro {
-  background-image: url("http://i.imgur.com/57gMMp7.jpg");
-  height: 600px;
-  text-align:center;}
   
   header {
   background: rgba(0,0,0,0.9);
@@ -128,11 +102,9 @@ background: rgba(0,0,0,0.9);
 </table>
 
 
-
-
 </body>
 
-<section class="footcolor1">
+<section class="footcolor3">
   <footer>
   <h3>Designed by Daniela Ballesteros </h3>
   <p>All Rights Reserved</p>
