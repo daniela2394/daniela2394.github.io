@@ -74,109 +74,7 @@ background: rgba(0,0,0,0.9);
   position: fixed;
   z-index: 100;}
   
-  #slider-wrapper{
-			width: 940px;
-			height: 470px;
-			margin: 50px auto;
-			position: relative;
-			margin-bottom: 0px;
-			background: rgba(0,0,0,0.5);
-			overflow: hidden;
-		}
-		
-				#s1{
-					padding: 6px;
-					background: #FFFFFF;
-					position: absolute;
-					left: 50%;
-					bottom: 25px;
-					margin-left: -36px;
-					border-radius: 20px;
-					opacity: 0.3;
-					cursor: pointer;
-					z-index: 999;
-				}
-				
-				#s2{
-					padding: 6px;
-					background: #FFFFFF;
-					position: absolute;
-					left: 50%;
-					bottom: 25px;
-					margin-left: -12px;
-					border-radius: 20px;
-					opacity: 0.3;
-					cursor: pointer;
-					z-index: 999;
-				}
-				
-				#s3{
-					padding: 6px;
-					background: #FFFFFF;
-					position: absolute;
-					left: 50%;
-					bottom: 25px;
-					margin-left: 12px;
-					border-radius: 20px;
-					opacity: 0.3;
-					cursor: pointer;
-					z-index: 999;
-				}
-				
-				#s4{
-					padding: 6px;
-					background: #FFFFFF;
-					position: absolute;
-					left: 50%;
-					bottom: 25px;
-					margin-left: 36px;
-					border-radius: 20px;
-					opacity: 0.3;
-					cursor: pointer;
-					z-index: 999;
-				}
-				
-				#s1:hover, #s2:hover, #s3:hover, #s4:hover{ opacity: 1;}
-				
-			.inner-wrapper{
-				width: 940px;
-				height: 470px;
-				position: absolute;
-				top: 0;
-				left: 0;
-				margin-bottom: 0px;
-				overflow: hidden;
-			}
-				.control{ display: none;}
-				
-				#Slide1:checked ~ .overflow-wrapper{ margin-left: 0%; }
-				#Slide2:checked ~ .overflow-wrapper{ margin-left: -100%; }
-				#Slide3:checked ~ .overflow-wrapper{ margin-left: -200%; }
-				#Slide4:checked ~ .overflow-wrapper{ margin-left: -300%; }
-				
-				#Slide1:checked + #s1 { opacity: 1; }
-				#Slide2:checked + #s2 { opacity: 1; }
-				#Slide3:checked + #s3 { opacity: 1; }
-				#Slide4:checked + #s4 { opacity: 1; }
-				
-			.overflow-wrapper{
-				width: 400%;
-				height: 100%;
-				position: absolute;
-				top: 0;
-				left: 0;
-				overflow-y: hidden;
-				z-index: 1;
-				-webkit-transition: all 0.3s ease-in-out;
-				-moz-transition: all 0.3s ease-in-out;
-				-o-transition: all 0.3s ease-in-out;
-				transition: all 0.3s ease-in-out;
-			}
-			
-				.slide img{
-					width: 25%;
-					float: left;
-				}
+ 
 				
 </style>
 </head>
@@ -199,24 +97,24 @@ background: rgba(0,0,0,0.9);
 
 </header>
 <body>
-	<div id="slider-wrapper">
-		<div class="inner-wrapper">
-			<input checked type="radio" name="slide" class="control" id="Slide1"/>
-				<label for="Slide1" id="s1"></label>
-			<input type="radio" name="slide" class="control" id="Slide2"/>
-				<label for="Slide2" id="s2"></label>
-			<input type="radio" name="slide" class="control" id="Slide3"/>
-				<label for="Slide3" id="s3"></label>
-			<input type="radio" name="slide" class="control" id="Slide4"/>
-				<label for="Slide4" id="s4"></label>
-			<div class="overflow-wrapper">
-				<a class="slide" href=""><img src="http://i.imgur.com/hKju1EC.jpg"/></a>
-				<a class="slide" href=""><img src="http://i.imgur.com/hKju1EC.jpg"/></a>
-				<a class="slide" href=""><img src="http://i.imgur.com/hKju1EC.jpg"/></a>
-				<a class="slide" href=""><img src="http://i.imgur.com/hKju1EC.jpg"/></a>
-			</div>
-		</div>
-	</div>
+ 
+  
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet"> 
+<!-- 3 KB -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script> <!-- 16 KB -->
+  
+
+  
+<div class="fotorama"<div align="center"><img src="http://i.imgur.com/oqv6dct.jpg" width="1500" height="830" />
+<img src="http://i.imgur.com/r5peDVs.jpg" width="1500" height="830" />
+  <img src="http://i.imgur.com/9TwYFGB.jpg" width="1500" height="830" />
+  <img src="http://i.imgur.com/jlGcwDZ.jpg" width="1500" height="830" /> 
+  <img src="http://i.imgur.com/K7ygimR.jpg" width="1500" height="830" />
+<p>&nbsp;</p>
+</div></div>
+
 </body>
 <section class="footcolor3">
   <footer>
