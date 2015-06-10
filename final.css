@@ -24,13 +24,13 @@
 
 .jumbotron h1 {
   color: #fff;
-  font-size: 25 px;  
+  font-size:35 px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
 
 .jumbotron p {
-  font-size: 20px;
+  font-size: 35px;
   color: 6740b7;
 }
 
@@ -40,7 +40,7 @@
 
 .learn-more h3 h2 {
   font-family: 'Shift', sans-serif;
-  font-size: 24px;
+  font-size: 35px;
   font-weight: bold;
 }
 
