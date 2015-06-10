@@ -71,4 +71,5 @@ width: 100%;
 position: fixed;
 z-index: 100;
 position:static;
+margin-left:100px;
 }
